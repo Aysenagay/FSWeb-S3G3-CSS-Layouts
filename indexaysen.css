@@ -1,0 +1,63 @@
+html body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  color: #3c373b;
+  font-family: Roboto Mono;
+}
+h1 {
+  background-color: rgb(44, 119, 204);
+}
+
+header {
+  text-align: center;
+}
+.portföy {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  font-size: large;
+}
+.giris {
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+a {
+  background-color: rgb(158, 194, 235);
+  padding: 10px;
+  box-shadow: rgba(25, 4, 221, 0.4) -5px 5px, rgba(12, 10, 128, 0.3) -10px 10px,
+    rgba(35, 40, 92, 0.2) -15px 15px, rgba(103, 161, 228, 0.1) -20px 20px,
+    rgba(39, 59, 148, 0.05) -25px 25px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+img.uzunfoto {
+  object-fit: contain;
+  width: 100%;
+}
+.fotografyazi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.sonparagraf {
+  margin: auto;
+  width: 30%;
+  background-color: rgb(159, 159, 202);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: x-large;
+}
+footer {
+  background-color: #3c373b;
+  text-align: center;
+  padding: 20px;
+}
